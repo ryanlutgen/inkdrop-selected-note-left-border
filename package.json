@@ -1,7 +1,7 @@
 {
   "name": "selected-note-left-border",
   "main": "./src/index",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Alters Inkdrop's selected note style to use a left-border instead of highlighting the entire cell",
   "keywords": [],
   "repository": "https://github.com/ryanlutgen/selected-note-left-border",
