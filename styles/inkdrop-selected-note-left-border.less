@@ -1,0 +1,32 @@
+
+
+.note-list-bar-item {
+    .note-list-item-view {
+        padding: 2px 0px 10px 20px;
+    }
+
+    .note-list-item-view.active, .note-list-item-view.focused {
+        background-color: var(--note-list-bar-background);
+        filter: brightness(95%);
+        border-left: 5px solid var(--note-list-view-item-active-background);
+        color: var(--text-color);
+        padding: 2px 0px 10px 15px; //-5px on left padding for border
+        box-shadow: none !important;
+
+        .content {
+            .description {
+                .text {
+                    color: var(--note-list-view-item-color);
+                }
+
+                .date {
+                    color: var(--note-list-view-item-date-color);
+                }
+            }
+
+            .header {
+                color: var(--text-color);
+            }
+        }
+    }
+}
